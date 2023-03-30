@@ -54,7 +54,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   publish-npm:
-    needs: build-and-test
+    needs: update-documentation
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -62,12 +62,12 @@ jobs:
       with:
         node-version: '12'
         registry-url: https://npm.pkg.github.com/
-        scope: '@luis.antezana'
+        scope: '@LuisAntezana'
     - run: yarn --frozen-lockfile
     - run: yarn readme:copy
     - run: yarn build
       # Flag --no-verify-access is necessary to skip user and access validation due to third-party registry
-    - run: yarn lerna publish from-package --yes --no-verify-access --registry https://npm.pkg.github.com/@luis.antezana
+    - run: yarn lerna publish from-package --yes --no-verify-access --registry https://npm.pkg.github.com/@LuisAntezana
       # Alternatively set command.publish.registry in root lerna.json
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
