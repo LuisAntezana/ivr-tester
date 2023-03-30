@@ -49,6 +49,10 @@ export class AudioPlaybackCaller implements Caller<Buffer> {
     });
   }
 
+  public hangUp(): void {
+    // do nothing
+  }
+
   private static createTwilioMediaStreamStartEvent(sid: string): string {
     return JSON.stringify({
       event: TwilioConnectionEvents.MediaStreamStart,
