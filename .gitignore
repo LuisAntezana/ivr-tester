@@ -33,3 +33,9 @@ pids
 .yarn/install-state.gz
 .pnp.*
 dist/*
+audios/*
+recordings/
+scenarios.json
+.vscode/*
+config.json
+package.json
