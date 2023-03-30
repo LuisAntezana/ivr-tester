@@ -170,6 +170,9 @@ export class IvrTester implements RunnableTester {
 
             callServer
               .stop()
+              .then(() => {
+                return caller.hangUp();
+              })
               .catch((err) => err && console.error(err))
               .finally(() => {
                 if (failure) {
@@ -186,6 +189,9 @@ export class IvrTester implements RunnableTester {
 
           callServer
             .stop()
+            .then(() => {
+              return caller.hangUp();
+            })
             .catch((err) => err && console.error(err))
             .finally(() => reject(error));
         });

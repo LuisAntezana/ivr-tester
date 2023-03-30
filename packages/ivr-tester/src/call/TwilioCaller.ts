@@ -17,7 +17,7 @@ export interface TwilioMediaStreamStartEvent {
 export class TwilioCaller implements Caller<IvrNumber> {
   private static debug = Debugger.getTwilioDebugger();
 
-  constructor(private readonly twilioClient: Twilio) {}
+  constructor(private readonly twilioClient: Twilio) { }
 
   private static addParameters(stream: VoiceResponse.Stream, call: Call): void {
     // TODO Adding parameters throws a warning, but is even done here https://www.twilio.com/blog/media-streams-public-beta
@@ -38,6 +38,8 @@ export class TwilioCaller implements Caller<IvrNumber> {
     return { from, to };
   }
 
+  callSid = ""
+
   public async call(
     call: IvrNumber,
     streamUrl: URL | string
@@ -56,7 +58,21 @@ export class TwilioCaller implements Caller<IvrNumber> {
 
     TwilioCaller.debug("Making call %O", callOptions);
 
-    await this.twilioClient.calls.create(callOptions);
+    await this.twilioClient.calls.create(callOptions).then((twilioCall) => {
+      this.callSid = twilioCall.sid;
+      console.log("Twilio call Sid:", this.callSid)
+    });
     return { type: "telephony", call };
+  }
+
+  public async hangUp(): Promise<void> {
+    if (this.callSid) {
+      await this.twilioClient.calls(this.callSid)
+        .update({ status: 'completed' })
+        .then(call => TwilioCaller.debug("Twilio status call has changed to completed."))
+        .catch((error) => {
+          TwilioCaller.debug(error);
+        });
+    }
   }
 }
