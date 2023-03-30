@@ -49,7 +49,7 @@ export class AudioPlaybackCaller implements Caller<Buffer> {
     });
   }
 
-  public hangUp(): void {
+  public async hangUp(): Promise<void> {
     // do nothing
   }
 
