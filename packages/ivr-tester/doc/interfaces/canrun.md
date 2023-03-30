@@ -14,4 +14,4 @@
 
 • **canRun**: *true*
 
-Defined in: [call/transcription/plugin/TranscriberFactory.ts:4](https://github.com/SketchingDev/ivr-tester/blob/f78871d/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L4)
+Defined in: [call/transcription/plugin/TranscriberFactory.ts:4](https://github.com/LuisAntezana/ivr-tester/blob/3fc9e8e/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L4)
