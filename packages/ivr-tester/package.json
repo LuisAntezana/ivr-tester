@@ -71,6 +71,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/@luis.antezana"
+    "registry": "https://npm.pkg.github.com/@LuisAntezana"
   }
 }
