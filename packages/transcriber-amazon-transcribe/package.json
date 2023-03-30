@@ -59,7 +59,6 @@
     "node": ">= 10.14.2"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/@LuisAntezana"
+    "access": "public"
   }
 }
