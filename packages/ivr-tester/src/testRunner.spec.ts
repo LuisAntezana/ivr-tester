@@ -164,7 +164,7 @@ describe("Test Runner", () => {
   });
 
   test("Call Server closed when test finishes", async () => {
-    twilioClient.calls.create.mockResolvedValue(undefined);
+    twilioClient.calls.create.mockResolvedValue({callSid: "fake-twilio-callid"});
 
     const transcriber = new TranscriberTestDouble();
     jest.spyOn(transcriber, "transcribe").mockImplementation(() => {

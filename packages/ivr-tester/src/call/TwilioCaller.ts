@@ -58,8 +58,8 @@ export class TwilioCaller implements Caller<IvrNumber> {
 
     TwilioCaller.debug("Making call %O", callOptions);
 
-    await this.twilioClient.calls.create(callOptions).then((call) => {
-      this.callSid = call.sid;
+    await this.twilioClient.calls.create(callOptions).then((twilioCall) => {
+      this.callSid = twilioCall.sid;
       console.log("Twilio call Sid:", this.callSid)
     });
     return { type: "telephony", call };
