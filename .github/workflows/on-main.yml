@@ -45,7 +45,7 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn readme:copy
       - run: yarn build
-      - run: yarn lerna publish
+      - run: yarn lerna publish from-package --yes --no-verify-access
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # Flag --no-verify-access is necessary to skip user and access validation due to third-party registry
