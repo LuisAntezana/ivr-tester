@@ -17,7 +17,7 @@
 
 Indicates whether the transcription isn't going to change
 
-Defined in: [call/transcription/plugin/TranscriberPlugin.ts:7](https://github.com/LuisAntezana/ivr-tester/blob/3fc9e8e/packages/ivr-tester/src/call/transcription/plugin/TranscriberPlugin.ts#L7)
+Defined in: [call/transcription/plugin/TranscriberPlugin.ts:7](https://github.com/LuisAntezana/ivr-tester/blob/b357cca/packages/ivr-tester/src/call/transcription/plugin/TranscriberPlugin.ts#L7)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • **transcription**: *string*
 
-Defined in: [call/transcription/plugin/TranscriberPlugin.ts:8](https://github.com/LuisAntezana/ivr-tester/blob/3fc9e8e/packages/ivr-tester/src/call/transcription/plugin/TranscriberPlugin.ts#L8)
+Defined in: [call/transcription/plugin/TranscriberPlugin.ts:8](https://github.com/LuisAntezana/ivr-tester/blob/b357cca/packages/ivr-tester/src/call/transcription/plugin/TranscriberPlugin.ts#L8)
