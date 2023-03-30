@@ -67,7 +67,7 @@ jobs:
     - run: yarn readme:copy
     - run: yarn build
       # Flag --no-verify-access is necessary to skip user and access validation due to third-party registry
-    - run: yarn lerna publish from-package --yes --no-verify-access --registry=https://npm.pkg.github.com/@luis.antezana
+    - run: yarn lerna publish from-package --yes --no-verify-access --registry https://npm.pkg.github.com/@luis.antezana
       # Alternatively set command.publish.registry in root lerna.json
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
