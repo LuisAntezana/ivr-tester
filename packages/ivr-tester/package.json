@@ -1,5 +1,5 @@
 {
-  "name": "@LuisAntezana/ivr-tester",
+  "name": "ivr-tester",
   "version": "0.2.13",
   "description": "An automated testing framework for IVR call flows",
   "license": "MIT",
