@@ -39,3 +39,4 @@ scenarios.json
 .vscode/*
 config.json
 package.json
+.npmrc
