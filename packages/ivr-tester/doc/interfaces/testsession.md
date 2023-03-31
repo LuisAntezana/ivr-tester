@@ -16,7 +16,7 @@
 
 • `Readonly` **call**: *Call*
 
-Defined in: [testRunner.ts:27](https://github.com/LuisAntezana/ivr-tester/blob/e42b159/packages/ivr-tester/src/testRunner.ts#L27)
+Defined in: [testRunner.ts:27](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/testRunner.ts#L27)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • `Readonly` **callFlowSession**: CallFlowSession
 
-Defined in: [testRunner.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/e42b159/packages/ivr-tester/src/testRunner.ts#L28)
+Defined in: [testRunner.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/testRunner.ts#L28)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • `Readonly` **scenario**: [*Scenario*](scenario.md)
 
-Defined in: [testRunner.ts:26](https://github.com/LuisAntezana/ivr-tester/blob/e42b159/packages/ivr-tester/src/testRunner.ts#L26)
+Defined in: [testRunner.ts:26](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/testRunner.ts#L26)
