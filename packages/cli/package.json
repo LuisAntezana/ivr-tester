@@ -1,5 +1,5 @@
 {
-  "name": "ivr-tester-cli",
+  "name": "@LuisAntezana/ivr-tester-cli",
   "version": "0.0.3",
   "description": "CLI for automated testing of IVR call flows",
   "license": "MIT",
@@ -61,6 +61,6 @@
     "node": ">= 10.14.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@LuisAntezana"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
