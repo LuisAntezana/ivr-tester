@@ -4884,18 +4884,6 @@ ivr-tester-transcriber-google-speech-to-text@^0.1.3:
     "@google-cloud/speech" "^4.1.3"
     debug "^4.3.1"
 
-ivr-tester@^0.2.10, ivr-tester@^0.2.12:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/ivr-tester/-/ivr-tester-0.2.12.tgz#e72e5695f565c2c48272b8f0cf015fb7c27c4cf6"
-  integrity sha512-4TrVvW0MkcWyF23XbITzTXon6GUMMQSWDktdlc/lRbhksqo7bq+gltoEw8w5H49kUxvWPFko4OaF+bJb73D52A==
-  dependencies:
-    chalk "^4.1.0"
-    debug "^4.3.1"
-    joi "^17.4.0"
-    string-similarity "^4.0.4"
-    twilio "^3.57.0"
-    ws "^7.4.4"
-
 jest-changed-files@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-26.6.2.tgz#f6198479e1cc66f22f9ae1e22acaa0b429c042d0"
