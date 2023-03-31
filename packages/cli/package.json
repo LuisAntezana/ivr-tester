@@ -1,5 +1,5 @@
 {
-  "name": "@LuisAntezana/ivr-tester-cli",
+  "name": "ivr-tester-cli",
   "version": "0.0.3",
   "description": "CLI for automated testing of IVR call flows",
   "license": "MIT",
