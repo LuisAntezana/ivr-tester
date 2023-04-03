@@ -37,9 +37,9 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [plugins/IvrTesterPlugin.ts:10](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L10)
+Defined in: [plugins/IvrTesterPlugin.ts:10](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L10)
 
-Defined in: [plugins/IvrTesterPlugin.ts:10](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L10)
+Defined in: [plugins/IvrTesterPlugin.ts:10](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L10)
 
 ## Methods
 
@@ -56,4 +56,4 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [plugins/IvrTesterPlugin.ts:9](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L9)
+Defined in: [plugins/IvrTesterPlugin.ts:9](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/plugins/IvrTesterPlugin.ts#L9)

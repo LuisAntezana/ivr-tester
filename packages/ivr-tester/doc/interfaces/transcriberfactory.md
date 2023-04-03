@@ -27,9 +27,9 @@ e.g. credentials
 
 **Returns:** [*CanRunCheck*](../README.md#canruncheck) \| *Promise*<[*CanRunCheck*](../README.md#canruncheck)\>
 
-Defined in: [call/transcription/plugin/TranscriberFactory.ts:23](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L23)
+Defined in: [call/transcription/plugin/TranscriberFactory.ts:23](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L23)
 
-Defined in: [call/transcription/plugin/TranscriberFactory.ts:23](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L23)
+Defined in: [call/transcription/plugin/TranscriberFactory.ts:23](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L23)
 
 ___
 
@@ -45,6 +45,6 @@ Creates the transcriber. This will be called once per call.
 
 **Returns:** [*TranscriberPlugin*](transcriberplugin.md)
 
-Defined in: [call/transcription/plugin/TranscriberFactory.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L28)
+Defined in: [call/transcription/plugin/TranscriberFactory.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L28)
 
-Defined in: [call/transcription/plugin/TranscriberFactory.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/b11e440/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L28)
+Defined in: [call/transcription/plugin/TranscriberFactory.ts:28](https://github.com/LuisAntezana/ivr-tester/blob/1461e4b/packages/ivr-tester/src/call/transcription/plugin/TranscriberFactory.ts#L28)
