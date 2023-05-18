@@ -39,7 +39,7 @@
     "commander": "^7.2.0",
     "ivr-tester": "^0.2.13",
     "joi": "^17.4.0",
-    "ngrok": "^3.4.0"
+    "ngrok": "5.0.0-beta.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
